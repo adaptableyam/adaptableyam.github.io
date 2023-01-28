@@ -1,18 +1,8 @@
-<!-- HELLO
--
-DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
-Created by Anil Seervi.
--
-GitHub repo: https://github.com/AnilSeervi/DevFolio
-README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
--
-Have fun creating your portfolio on this template!!! -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <script src="https://kit.fontawesome.com/715a03c2d4.js" crossorigin="anonymous"></script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,7 +40,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <meta property="twitter:url" content="https://robertstephenson.org" />
     <!-- Recommended to use the same text used within <title> element -->
     <meta property="twitter:title" content="Robert Stephenson | Software Developer" />
     <!-- short description that shows up while your portfolio is shared -->
@@ -61,7 +51,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
     <meta
       property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
+      content="./assets/android-chrome-512x512.png"
     />
 
     <!-- link tags -->
@@ -139,7 +129,7 @@ Have fun creating your portfolio on this template!!! -->
               <ul id="list-tag">
                 <li id="list-tag"><i class="fa-solid fa-angles-right"></i>    Proficient in C</li>
                 <li id="list-tag"><i class="fa-solid fa-angles-right"></i>    Python for automation and data science</li>
-                <li id="list-tag"><i class="fa-solid fa-angles-right"></i>    HTML, CSS and React</li>
+                <li id="list-tag"><i class="fa-solid fa-angles-right"></i>    HTML, CSS and Javascript</li>
                 <li id="list-tag"><i class="fa-solid fa-angles-right"></i>    Experience in C# using Unity</li>
               </ul>
               
@@ -163,13 +153,55 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">CS50x</h3>
+              <h3 class="project-wrapper__text-title">CS50X</h3>
               <p class="project-wrapper__text-info">
-                A description about cs50 here
+                CS50 is a renowned computer science course designed by
+                Harvard University. CS50 gives students the opportunity to 
+                understand the inner workings of a computer, as well as the
+                chance to design programs with a range of languages such as:
+                C, Python, SQL, HTML, CSS and Javascript.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://github.com/adaptableyam/CS50"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Project Links</a
+                >
+                <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x" target="_blank" class="cta-btn text-color-main"
+                  >Visit CS50</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/adaptableyam/CS50" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/CS50-Screenshot.png"
+                    class="img-fluid"
+                    alt="CS50-image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">FABtekk Engineering website</h3>
+              <p class="project-wrapper__text-info">
+                Designed a website for the client: 'FABtekk Engineering Ltd'. 
+                To make this project I utilised a mix of HTML, CSS and Javascript
+                while using the Framework Bootstrap to help pull it all together.
+                (Describe some specifics of the site, any cool features, etc.)
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://fabtekk.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
@@ -198,12 +230,12 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title"><i class="fa-solid fa-biohazard"></i>   DEADZ0NE</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                A project using unity, combined with C#, to make an isometric
+                zombie survival game. The game features a fully functional control
+                system, projectile firing, collisions, basic AI integration and
+                a functioning score and ammo system integrated on the HUD. 
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -211,48 +243,10 @@ Have fun creating your portfolio on this template!!! -->
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
+                  >Play Now</a
                 >
                 <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                  >Github Link</a
                 >
               </div>
             </div>
@@ -280,8 +274,9 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text">Get in touch! <br>
+            <i class="fa-solid fa-envelope-circle-check"></i></p>
+          <a href="mailto: stephensonrobert066@gmail.com" class="cta-btn cta-btn--resume">Email me</a>
         </div>
       </div>
     </section>
@@ -295,7 +290,7 @@ Have fun creating your portfolio on this template!!! -->
         </a>
         <div class="social-links">
           <a
-            href="#!"
+            href="https://twitter.com/adaptableyam"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="twitter"
@@ -303,7 +298,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa fa-twitter"></i>
           </a>
           <a
-            href="#!"
+            href="https://www.instagram.com/stephensonrobert/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="instagram"
@@ -314,20 +309,12 @@ Have fun creating your portfolio on this template!!! -->
             href="#!"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
             aria-label="linkedin"
           >
             <i class="fa fa-linkedin"></i>
           </a>
           <a
-            href="#!"
+            href="https://github.com/adaptableyam"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
@@ -337,13 +324,12 @@ Have fun creating your portfolio on this template!!! -->
         </div>
         <hr />
         <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
+          &copy; <span id="year"></span> - Made by
           <a
-            href="https://github.com/AnilSeervi"
+            href="https://github.com/adaptableyam"
             target="_blank"
             rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
+            >Robert Stephenson</a
         </p>
       </div>
     </footer>
